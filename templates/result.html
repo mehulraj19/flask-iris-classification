@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flask-Iris
+        </title>
+    </head>
+    <body>
+        <h1>Predicated Value: </h1>
+
+        {%if data == 0%}
+         <h2>Iris-setosa</h2>
+
+        {%elif data ==1%}
+        <h2>Iris-versicolor</h2> 
+
+        {%else%}
+        <h2>Iris-virginica</h2>
+
+        {%endif%}
+
+        <br><br>
+        <a href="/">Return to home Page.</a>
+    </body>
+</html>

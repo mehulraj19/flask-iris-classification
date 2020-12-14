@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flask-Iris
+        </title>
+    </head>
+    <body>
+        <h1>IRIS-CLASSIFICATION</h1>
+        <form method="POST" action="{{url_for('resultForm')}}">
+
+            <!-- Sepal -->
+            <h4>SepalWidth</h4>
+            <input type="text" name="sepalWidth" placeholder="Enter SepalWidth">
+            <h4>SepalLength</h4>
+            <input type="text" name="sepalLength" placeholder="Enter SepalLength">
+
+            <!-- Petal -->
+            <h4>petalLength</h4>
+            <input type="text" name="petalLength" placeholder="Enter petalLength">
+            <h4>petalWidth</h4>
+            <input type="text" name="petalWidth" placeholder="Enter petalWidth">
+        
+            <br><br><br>
+            <!-- Predict -->
+            <input type="submit" value="predict">
+            
+        </form>
+    </body>
+</html>
