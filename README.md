@@ -15,7 +15,8 @@ I have used anaconda navigator for running the app.
     Go to the desired folder
   </li>
   <li>
-    Give the command: <u>python app.py</u>
+    Give the command: <br><b>python app.py</b>
+    <br>
     Then you will get link, copy the link and paste in your browser.
   </li>
   <li>
